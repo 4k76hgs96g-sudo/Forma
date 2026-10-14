@@ -6,7 +6,6 @@
   "display": "standalone",
   "background_color": "#10120f",
   "theme_color": "#10120f",
-  "description": "Личный трекер тренировок, питания, воды, добавок и прогресса.",
   "icons": [
     {
       "src": "./icon-192.png",
