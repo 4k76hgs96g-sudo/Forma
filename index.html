@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#10120f">
+<meta name="theme-color" content="#10271d">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="FORMA">
@@ -22,6 +22,21 @@
 @media(max-width:390px){.app{padding-left:12px;padding-right:12px}.nav button{font-size:9px}.nav button .ico{font-size:16px}.hero h1{font-size:26px}.card{padding:13px}}
 
 .compact-hero{padding:15px;margin-bottom:10px}.compact-hero .hero-stats{gap:7px}.compact-hero .hero-stat{padding:11px 8px;text-align:center}.compact-hero .hero-stat b{font-size:20px}.quote-card{margin-bottom:12px;padding:15px 17px}.quote-text{font-size:15px;line-height:1.45;margin:10px 0;color:#f4f0e5}.quote-author{font-size:11px;color:var(--gold);text-align:right}.reset-area{margin-top:28px;padding-top:16px;border-top:1px solid var(--line)}.nav button .ico{border-radius:11px}.nav button .ico svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.setup-modal{position:fixed;inset:0;z-index:80;background:#000c;backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;padding:14px}.setup-sheet{width:min(560px,100%);max-height:92dvh;overflow:auto;background:#151611;border:1px solid #625332;border-radius:24px;padding:22px 18px;box-shadow:0 20px 70px #000a}.setup-sheet h2{font-size:25px;margin:12px 0 8px}.setup-sheet .field{margin:6px 0}.setup-sheet .field input,.setup-sheet .field select{padding:10px}.setup-sheet .form-grid{gap:8px}.setup-sheet .btn{margin-top:8px}.setup-cancel{margin-top:8px}.macro #profileTargets{margin-top:10px}
+
+/* FORMA v9 — restrained premium forest-green design */
+:root{--bg:#0b1510;--panel:#13231a;--panel2:#1a2d21;--line:#2b4936;--text:#edf5ee;--muted:#9db4a3;--lime:#8ed6a2;--lime2:#4f9668;--red:#e18b84;--radius:20px;--gold:#8ed6a2;--olive:#4f9668}
+html{background:var(--bg)}body{background:radial-gradient(ellipse at 88% -8%,#234b34 0,transparent 34%),radial-gradient(ellipse at -15% 45%,#142a1d 0,transparent 30%),var(--bg)}
+.brand span{color:#8ed6a2}.avatar{background:linear-gradient(145deg,#a8e5b6,#4e9a69);color:#0b1910;box-shadow:0 5px 18px #69c58420}
+.hero{border-color:#3b6d4b;background:linear-gradient(135deg,#1b422b 0%,#14291d 58%,#122018 100%);box-shadow:0 12px 36px #0002}.eyebrow{color:#8ed6a2}.hero p{color:#c0d8c5}
+.hero-stat{background:#d7ffe00a;border-color:#c4f6d018}.hero-stat b{letter-spacing:-.5px}
+.card{background:linear-gradient(155deg,#17291e,#122017 78%);border-color:#294634;box-shadow:0 8px 24px #00000012}.card h3{letter-spacing:-.2px}.progress{background:#294333}.progress>i{background:linear-gradient(90deg,#4f9668,#a3e5b1)}
+.btn{background:linear-gradient(135deg,#a7e5b4,#69b982);color:#0d2114;box-shadow:0 3px 10px #63bc7c14}.btn.secondary{background:#1a3022;color:#e5f4e8;border-color:#355940;box-shadow:none}.btn.ghost{color:#9de0ad;border-color:#477956}.btn.danger{background:#472725;color:#ffc0b9;box-shadow:none}
+.ring{background:conic-gradient(#8ed6a2 var(--p,0%),#294333 0)}.ring:before{background:#14251a}.macro div{background:#1a3022}.nav{background:#0e1b13f5;border-color:#2b4936}.nav button{color:#8ba795}.nav button .ico{border-color:#31533b;background:linear-gradient(145deg,#203a29,#132218);color:#91d9a3;box-shadow:inset 0 1px #ffffff0b}.nav button.active .ico{background:linear-gradient(145deg,#a7e5b4,#5ca875);color:#0c2012;border-color:#a7e5b4;box-shadow:0 3px 14px #69c58425}.nav button.active{color:#a6e5b4;background:#79ca8b12}
+.item,.exercise{background:#1a2d21}.tag{background:#8ed6a21c;color:#a6e5b4}.field input,.field select,.field textarea{background:#102017;border-color:#2b4936}.field input:focus,.field select:focus,.field textarea:focus{border-color:#8ed6a2;box-shadow:0 0 0 3px #8ed6a21a}.pill.selected{background:#8ed6a2;color:#0b1c10;border-color:#8ed6a2}.checkline input{accent-color:#8ed6a2}.toast{background:#a7e5b4;color:#0d2114}
+.bubble.me{background:#8ed6a2;color:#0b1c10}.recipe-card{border-color:#294634;background:linear-gradient(150deg,#1a3021,#122017)}.recipe-modal-sheet,.setup-sheet{background:#13231a;border-color:#3b6d4b}.modal-close{border-color:#355940;background:#1a3022;color:#a6e5b4}.recipe-modal h3{color:#8ed6a2}.exercise-technique{border-left-color:#8ed6a2;background:#8ed6a20c}.recovery-point{background:#102017;border-color:#2b4936}.recovery-point.below{background:#8ed6a218;border-color:#477956;color:#a6e5b4}.recovery-point.selected{background:#8ed6a2;border-color:#a7e5b4;color:#0b1c10;box-shadow:0 0 0 2px #8ed6a233,0 4px 12px #0002}.food-amount input{background:#102017;border-color:#2b4936}.quote-text{color:#edf5ee}.quote-author{color:#8ed6a2}.reset-area{border-top-color:#2b4936}
+.recipe-modal .detail-text{color:#d2e5d6}
+@media(prefers-reduced-motion:no-preference){.card,.btn,.nav button .ico{transition:background .18s,border-color .18s,transform .18s,box-shadow .18s}.btn:active{transform:scale(.985)}}
+
 </style>
 </head>
 <body>
