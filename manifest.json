@@ -4,8 +4,8 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#050506",
-  "theme_color": "#050506",
+  "background_color": "#080808",
+  "theme_color": "#080808",
   "description": "Твоя личная система тренировок, питания и прогресса.",
   "icons": [
     {
